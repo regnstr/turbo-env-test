@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev:lib": "vite dev",
     "dev": "svelte-kit sync && svelte-package --watch --input=src",
     "build": "svelte-kit sync && svelte-package --input=src",
     "lint": "eslint .",
@@ -34,9 +35,13 @@
     "@sveltejs/kit": "^2.25.1",
     "@sveltejs/package": "^2.4.0",
     "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "@tailwindcss/vite": "^4.0.0",
     "eslint": "^9.31.0",
     "svelte": "^5.36.12",
     "svelte-check": "^4.3.0",
+    "tailwindcss": "^4.0.0",
     "typescript": "5.8.2",
     "vite": "^6.3.2"
   }
